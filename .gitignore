@@ -1,0 +1,12 @@
+.env
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+backend/rag/index/
+data/complaint_history.db
+
+node_modules/
+.DS_Store

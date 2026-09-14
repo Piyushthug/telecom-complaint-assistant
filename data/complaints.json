@@ -1,0 +1,1883 @@
+[
+  {
+    "complaint_id": "CMP0001",
+    "customer_id": "CUST0015",
+    "complaint": "I was charged twice for the same service.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-03-23T06:24:32"
+  },
+  {
+    "complaint_id": "CMP0002",
+    "customer_id": "CUST0070",
+    "complaint": "I am extremely frustrated and upset. I have already contacted support but my issue is still unresolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-04-03T12:58:32"
+  },
+  {
+    "complaint_id": "CMP0003",
+    "customer_id": "CUST0028",
+    "complaint": "I appreciate the support. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-30T01:38:32"
+  },
+  {
+    "complaint_id": "CMP0004",
+    "customer_id": "CUST0058",
+    "complaint": "I appreciate the support. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-07-03T23:40:32"
+  },
+  {
+    "complaint_id": "CMP0005",
+    "customer_id": "CUST0036",
+    "complaint": "I am frustrated. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-04-16T00:26:32"
+  },
+  {
+    "complaint_id": "CMP0006",
+    "customer_id": "CUST0013",
+    "complaint": "I am unhappy about this. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-23T01:32:32"
+  },
+  {
+    "complaint_id": "CMP0007",
+    "customer_id": "CUST0069",
+    "complaint": "I appreciate the support. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-04-10T10:30:32"
+  },
+  {
+    "complaint_id": "CMP0008",
+    "customer_id": "CUST0025",
+    "complaint": "I appreciate the support. My internet has been completely down since this morning.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-07-24T23:27:32"
+  },
+  {
+    "complaint_id": "CMP0009",
+    "customer_id": "CUST0030",
+    "complaint": "This has been a terrible experience. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-23T10:51:32"
+  },
+  {
+    "complaint_id": "CMP0010",
+    "customer_id": "CUST0021",
+    "complaint": "My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-05-25T02:28:32"
+  },
+  {
+    "complaint_id": "CMP0011",
+    "customer_id": "CUST0022",
+    "complaint": "I need some help. My internet speed has become much slower than usual.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-06-23T22:49:32"
+  },
+  {
+    "complaint_id": "CMP0012",
+    "customer_id": "CUST0072",
+    "complaint": "Thanks for your help. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-27T16:38:32"
+  },
+  {
+    "complaint_id": "CMP0013",
+    "customer_id": "CUST0052",
+    "complaint": "The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-05-06T10:54:32"
+  },
+  {
+    "complaint_id": "CMP0014",
+    "customer_id": "CUST0051",
+    "complaint": "Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-08-26T18:22:32"
+  },
+  {
+    "complaint_id": "CMP0015",
+    "customer_id": "CUST0072",
+    "complaint": "This has been a terrible experience. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-24T19:57:32"
+  },
+  {
+    "complaint_id": "CMP0016",
+    "customer_id": "CUST0018",
+    "complaint": "Thanks for your help. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-19T11:17:32"
+  },
+  {
+    "complaint_id": "CMP0017",
+    "customer_id": "CUST0021",
+    "complaint": "I appreciate the support. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-09T21:46:32"
+  },
+  {
+    "complaint_id": "CMP0018",
+    "customer_id": "CUST0060",
+    "complaint": "I appreciate the support. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-23T00:52:32"
+  },
+  {
+    "complaint_id": "CMP0019",
+    "customer_id": "CUST0015",
+    "complaint": "I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-05-11T03:27:32"
+  },
+  {
+    "complaint_id": "CMP0020",
+    "customer_id": "CUST0065",
+    "complaint": "Thanks for your help. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-04T10:11:32"
+  },
+  {
+    "complaint_id": "CMP0021",
+    "customer_id": "CUST0048",
+    "complaint": "I appreciate the support. My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-04T12:35:32"
+  },
+  {
+    "complaint_id": "CMP0022",
+    "customer_id": "CUST0015",
+    "complaint": "I am frustrated. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-09-03T20:25:32"
+  },
+  {
+    "complaint_id": "CMP0023",
+    "customer_id": "CUST0073",
+    "complaint": "Thanks for your help. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-09-07T02:25:32"
+  },
+  {
+    "complaint_id": "CMP0024",
+    "customer_id": "CUST0017",
+    "complaint": "I need some help. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-04-11T02:05:32"
+  },
+  {
+    "complaint_id": "CMP0025",
+    "customer_id": "CUST0070",
+    "complaint": "I am unhappy about this. My internet speed has become much slower than usual.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-03T04:56:32"
+  },
+  {
+    "complaint_id": "CMP0026",
+    "customer_id": "CUST0057",
+    "complaint": "I am extremely frustrated and upset. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-08-29T11:36:32"
+  },
+  {
+    "complaint_id": "CMP0027",
+    "customer_id": "CUST0009",
+    "complaint": "My internet has been completely down since this morning.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-05-19T06:15:32"
+  },
+  {
+    "complaint_id": "CMP0028",
+    "customer_id": "CUST0008",
+    "complaint": "Thanks for your help. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-04-29T09:23:32"
+  },
+  {
+    "complaint_id": "CMP0029",
+    "customer_id": "CUST0031",
+    "complaint": "I need some help. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-05-08T09:49:32"
+  },
+  {
+    "complaint_id": "CMP0030",
+    "customer_id": "CUST0061",
+    "complaint": "Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-08-12T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0031",
+    "customer_id": "CUST0046",
+    "complaint": "I am very unhappy with this situation. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-03T19:46:32"
+  },
+  {
+    "complaint_id": "CMP0032",
+    "customer_id": "CUST0008",
+    "complaint": "Thanks for your help. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-05-31T00:12:32"
+  },
+  {
+    "complaint_id": "CMP0033",
+    "customer_id": "CUST0069",
+    "complaint": "This has been a terrible experience. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-06-08T09:09:32"
+  },
+  {
+    "complaint_id": "CMP0034",
+    "customer_id": "CUST0032",
+    "complaint": "I am extremely frustrated and upset. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-08-24T21:49:32"
+  },
+  {
+    "complaint_id": "CMP0035",
+    "customer_id": "CUST0002",
+    "complaint": "I need some help. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-09-11T02:44:32"
+  },
+  {
+    "complaint_id": "CMP0036",
+    "customer_id": "CUST0062",
+    "complaint": "I appreciate the support. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-26T15:00:32"
+  },
+  {
+    "complaint_id": "CMP0037",
+    "customer_id": "CUST0050",
+    "complaint": "I am unhappy about this. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-05T23:49:32"
+  },
+  {
+    "complaint_id": "CMP0038",
+    "customer_id": "CUST0063",
+    "complaint": "I am frustrated. The internet is working but everything loads very slowly.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-15T21:27:32"
+  },
+  {
+    "complaint_id": "CMP0039",
+    "customer_id": "CUST0070",
+    "complaint": "I appreciate the support. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-03-29T19:27:32"
+  },
+  {
+    "complaint_id": "CMP0040",
+    "customer_id": "CUST0068",
+    "complaint": "Thanks for your help. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-16T08:58:32"
+  },
+  {
+    "complaint_id": "CMP0041",
+    "customer_id": "CUST0009",
+    "complaint": "I am very unhappy with this situation. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-07-19T15:10:32"
+  },
+  {
+    "complaint_id": "CMP0042",
+    "customer_id": "CUST0075",
+    "complaint": "I appreciate the support. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-04T22:37:32"
+  },
+  {
+    "complaint_id": "CMP0043",
+    "customer_id": "CUST0027",
+    "complaint": "I need some help. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-07-18T15:12:32"
+  },
+  {
+    "complaint_id": "CMP0044",
+    "customer_id": "CUST0039",
+    "complaint": "I appreciate the support. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-09T22:46:32"
+  },
+  {
+    "complaint_id": "CMP0045",
+    "customer_id": "CUST0073",
+    "complaint": "My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-04-05T21:57:32"
+  },
+  {
+    "complaint_id": "CMP0046",
+    "customer_id": "CUST0009",
+    "complaint": "I am frustrated. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-25T18:43:32"
+  },
+  {
+    "complaint_id": "CMP0047",
+    "customer_id": "CUST0070",
+    "complaint": "Thanks for your help. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-24T18:56:32"
+  },
+  {
+    "complaint_id": "CMP0048",
+    "customer_id": "CUST0034",
+    "complaint": "I need some help. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-04-08T17:26:32"
+  },
+  {
+    "complaint_id": "CMP0049",
+    "customer_id": "CUST0027",
+    "complaint": "I need some help. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-07-27T08:25:32"
+  },
+  {
+    "complaint_id": "CMP0050",
+    "customer_id": "CUST0007",
+    "complaint": "I am frustrated. I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-04-04T12:23:32"
+  },
+  {
+    "complaint_id": "CMP0051",
+    "customer_id": "CUST0017",
+    "complaint": "I need some help. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-07-12T16:43:32"
+  },
+  {
+    "complaint_id": "CMP0052",
+    "customer_id": "CUST0002",
+    "complaint": "I need some help. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-04-08T01:55:32"
+  },
+  {
+    "complaint_id": "CMP0053",
+    "customer_id": "CUST0071",
+    "complaint": "I need some help. I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-04-14T16:09:32"
+  },
+  {
+    "complaint_id": "CMP0054",
+    "customer_id": "CUST0006",
+    "complaint": "There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-08-29T08:35:32"
+  },
+  {
+    "complaint_id": "CMP0055",
+    "customer_id": "CUST0072",
+    "complaint": "Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-08-26T15:58:32"
+  },
+  {
+    "complaint_id": "CMP0056",
+    "customer_id": "CUST0053",
+    "complaint": "I am unhappy about this. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-03-23T05:25:32"
+  },
+  {
+    "complaint_id": "CMP0057",
+    "customer_id": "CUST0035",
+    "complaint": "This has been a terrible experience. I have no internet connection at home.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-04-16T16:40:32"
+  },
+  {
+    "complaint_id": "CMP0058",
+    "customer_id": "CUST0026",
+    "complaint": "I am frustrated. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-14T08:51:32"
+  },
+  {
+    "complaint_id": "CMP0059",
+    "customer_id": "CUST0004",
+    "complaint": "This has been a terrible experience. My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-16T20:51:32"
+  },
+  {
+    "complaint_id": "CMP0060",
+    "customer_id": "CUST0036",
+    "complaint": "I am extremely frustrated and upset. I have already contacted support but my issue is still unresolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-05-21T15:18:32"
+  },
+  {
+    "complaint_id": "CMP0061",
+    "customer_id": "CUST0034",
+    "complaint": "I am frustrated. I need help because my previous support request was not resolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-04-20T05:18:32"
+  },
+  {
+    "complaint_id": "CMP0062",
+    "customer_id": "CUST0056",
+    "complaint": "This has been a terrible experience. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-20T15:27:32"
+  },
+  {
+    "complaint_id": "CMP0063",
+    "customer_id": "CUST0025",
+    "complaint": "I am very unhappy with this situation. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-04T02:01:32"
+  },
+  {
+    "complaint_id": "CMP0064",
+    "customer_id": "CUST0026",
+    "complaint": "I appreciate the support. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-05-24T00:26:32"
+  },
+  {
+    "complaint_id": "CMP0065",
+    "customer_id": "CUST0039",
+    "complaint": "This has been a terrible experience. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-06-19T00:47:32"
+  },
+  {
+    "complaint_id": "CMP0066",
+    "customer_id": "CUST0071",
+    "complaint": "I am very unhappy with this situation. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-10T21:15:32"
+  },
+  {
+    "complaint_id": "CMP0067",
+    "customer_id": "CUST0079",
+    "complaint": "This has been a terrible experience. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-30T07:35:32"
+  },
+  {
+    "complaint_id": "CMP0068",
+    "customer_id": "CUST0027",
+    "complaint": "This is very disappointing. I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-04T23:20:32"
+  },
+  {
+    "complaint_id": "CMP0069",
+    "customer_id": "CUST0028",
+    "complaint": "I need some help. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-06-19T18:29:32"
+  },
+  {
+    "complaint_id": "CMP0070",
+    "customer_id": "CUST0080",
+    "complaint": "I have no internet connection at home.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-05-18T17:35:32"
+  },
+  {
+    "complaint_id": "CMP0071",
+    "customer_id": "CUST0019",
+    "complaint": "The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-03-23T03:50:32"
+  },
+  {
+    "complaint_id": "CMP0072",
+    "customer_id": "CUST0054",
+    "complaint": "I need some help. I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-08-27T00:43:32"
+  },
+  {
+    "complaint_id": "CMP0073",
+    "customer_id": "CUST0032",
+    "complaint": "Thanks for your help. I have no internet connection at home.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-14T13:52:32"
+  },
+  {
+    "complaint_id": "CMP0074",
+    "customer_id": "CUST0067",
+    "complaint": "I need some help. I have no internet connection at home.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-06-11T06:46:32"
+  },
+  {
+    "complaint_id": "CMP0075",
+    "customer_id": "CUST0060",
+    "complaint": "I am unhappy about this. I need help because my previous support request was not resolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-18T05:49:32"
+  },
+  {
+    "complaint_id": "CMP0076",
+    "customer_id": "CUST0055",
+    "complaint": "I am very unhappy with this situation. I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-16T21:56:32"
+  },
+  {
+    "complaint_id": "CMP0077",
+    "customer_id": "CUST0058",
+    "complaint": "I am unhappy about this. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-04T21:33:32"
+  },
+  {
+    "complaint_id": "CMP0078",
+    "customer_id": "CUST0036",
+    "complaint": "This is very disappointing. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-06-06T18:57:32"
+  },
+  {
+    "complaint_id": "CMP0079",
+    "customer_id": "CUST0041",
+    "complaint": "Thanks for your help. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-28T06:49:32"
+  },
+  {
+    "complaint_id": "CMP0080",
+    "customer_id": "CUST0050",
+    "complaint": "I need some help. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-07-23T01:02:32"
+  },
+  {
+    "complaint_id": "CMP0081",
+    "customer_id": "CUST0043",
+    "complaint": "I am extremely frustrated and upset. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-25T11:50:32"
+  },
+  {
+    "complaint_id": "CMP0082",
+    "customer_id": "CUST0050",
+    "complaint": "I appreciate the support. I have already contacted support but my issue is still unresolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-30T10:25:32"
+  },
+  {
+    "complaint_id": "CMP0083",
+    "customer_id": "CUST0046",
+    "complaint": "This has been a terrible experience. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-05-12T01:47:32"
+  },
+  {
+    "complaint_id": "CMP0084",
+    "customer_id": "CUST0035",
+    "complaint": "I appreciate the support. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-06T01:19:32"
+  },
+  {
+    "complaint_id": "CMP0085",
+    "customer_id": "CUST0022",
+    "complaint": "I need some help. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-08-18T17:21:32"
+  },
+  {
+    "complaint_id": "CMP0086",
+    "customer_id": "CUST0073",
+    "complaint": "Thanks for your help. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-17T09:49:32"
+  },
+  {
+    "complaint_id": "CMP0087",
+    "customer_id": "CUST0024",
+    "complaint": "I am extremely frustrated and upset. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-03-27T20:49:32"
+  },
+  {
+    "complaint_id": "CMP0088",
+    "customer_id": "CUST0042",
+    "complaint": "This is very disappointing. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-19T03:41:32"
+  },
+  {
+    "complaint_id": "CMP0089",
+    "customer_id": "CUST0061",
+    "complaint": "Thanks for your help. I have already contacted support but my issue is still unresolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-03-22T05:49:32"
+  },
+  {
+    "complaint_id": "CMP0090",
+    "customer_id": "CUST0006",
+    "complaint": "I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-08-03T00:25:32"
+  },
+  {
+    "complaint_id": "CMP0091",
+    "customer_id": "CUST0020",
+    "complaint": "I am very unhappy with this situation. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-01T03:21:32"
+  },
+  {
+    "complaint_id": "CMP0092",
+    "customer_id": "CUST0060",
+    "complaint": "I am unhappy about this. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-07-24T01:08:32"
+  },
+  {
+    "complaint_id": "CMP0093",
+    "customer_id": "CUST0015",
+    "complaint": "I am unhappy about this. My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-08-07T07:21:32"
+  },
+  {
+    "complaint_id": "CMP0094",
+    "customer_id": "CUST0040",
+    "complaint": "I am extremely frustrated and upset. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-07-01T12:49:32"
+  },
+  {
+    "complaint_id": "CMP0095",
+    "customer_id": "CUST0032",
+    "complaint": "I appreciate the support. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-04-06T06:20:32"
+  },
+  {
+    "complaint_id": "CMP0096",
+    "customer_id": "CUST0055",
+    "complaint": "Thanks for your help. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-17T03:21:32"
+  },
+  {
+    "complaint_id": "CMP0097",
+    "customer_id": "CUST0063",
+    "complaint": "I am unhappy about this. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-06T22:14:32"
+  },
+  {
+    "complaint_id": "CMP0098",
+    "customer_id": "CUST0056",
+    "complaint": "This is very disappointing. I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-19T18:41:32"
+  },
+  {
+    "complaint_id": "CMP0099",
+    "customer_id": "CUST0076",
+    "complaint": "I need some help. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-05-06T13:46:32"
+  },
+  {
+    "complaint_id": "CMP0100",
+    "customer_id": "CUST0032",
+    "complaint": "I am extremely frustrated and upset. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-02T08:00:32"
+  },
+  {
+    "complaint_id": "CMP0101",
+    "customer_id": "CUST0042",
+    "complaint": "I need some help. I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-04-20T19:36:32"
+  },
+  {
+    "complaint_id": "CMP0102",
+    "customer_id": "CUST0036",
+    "complaint": "I am unhappy about this. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-08-25T23:18:32"
+  },
+  {
+    "complaint_id": "CMP0103",
+    "customer_id": "CUST0011",
+    "complaint": "I am very unhappy with this situation. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-05-01T15:38:32"
+  },
+  {
+    "complaint_id": "CMP0104",
+    "customer_id": "CUST0063",
+    "complaint": "Thanks for your help. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-06-08T07:14:32"
+  },
+  {
+    "complaint_id": "CMP0105",
+    "customer_id": "CUST0032",
+    "complaint": "I am unhappy about this. I need help because my previous support request was not resolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-13T10:58:32"
+  },
+  {
+    "complaint_id": "CMP0106",
+    "customer_id": "CUST0045",
+    "complaint": "I am unhappy about this. I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-06-04T04:11:32"
+  },
+  {
+    "complaint_id": "CMP0107",
+    "customer_id": "CUST0035",
+    "complaint": "There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-05-13T12:47:32"
+  },
+  {
+    "complaint_id": "CMP0108",
+    "customer_id": "CUST0016",
+    "complaint": "I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-07-31T22:49:32"
+  },
+  {
+    "complaint_id": "CMP0109",
+    "customer_id": "CUST0036",
+    "complaint": "I am frustrated. I am unhappy with the customer service I received.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-07-28T14:53:32"
+  },
+  {
+    "complaint_id": "CMP0110",
+    "customer_id": "CUST0030",
+    "complaint": "I am unhappy about this. The internet is working but everything loads very slowly.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-23T09:50:32"
+  },
+  {
+    "complaint_id": "CMP0111",
+    "customer_id": "CUST0017",
+    "complaint": "Thanks for your help. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-05-07T15:37:32"
+  },
+  {
+    "complaint_id": "CMP0112",
+    "customer_id": "CUST0014",
+    "complaint": "This is very disappointing. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-24T14:06:32"
+  },
+  {
+    "complaint_id": "CMP0113",
+    "customer_id": "CUST0044",
+    "complaint": "I am frustrated. My internet has been completely down since this morning.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-21T06:37:32"
+  },
+  {
+    "complaint_id": "CMP0114",
+    "customer_id": "CUST0052",
+    "complaint": "Thanks for your help. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-06-16T05:36:32"
+  },
+  {
+    "complaint_id": "CMP0115",
+    "customer_id": "CUST0039",
+    "complaint": "Thanks for your help. The internet is working but everything loads very slowly.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-03T05:17:32"
+  },
+  {
+    "complaint_id": "CMP0116",
+    "customer_id": "CUST0049",
+    "complaint": "This is very disappointing. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-08T17:27:32"
+  },
+  {
+    "complaint_id": "CMP0117",
+    "customer_id": "CUST0080",
+    "complaint": "Thanks for your help. I am unhappy with the customer service I received.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-03-29T16:17:32"
+  },
+  {
+    "complaint_id": "CMP0118",
+    "customer_id": "CUST0011",
+    "complaint": "My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-04-16T07:19:32"
+  },
+  {
+    "complaint_id": "CMP0119",
+    "customer_id": "CUST0053",
+    "complaint": "I am extremely frustrated and upset. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-06-08T17:24:32"
+  },
+  {
+    "complaint_id": "CMP0120",
+    "customer_id": "CUST0037",
+    "complaint": "I am very unhappy with this situation. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-07-25T09:52:32"
+  },
+  {
+    "complaint_id": "CMP0121",
+    "customer_id": "CUST0034",
+    "complaint": "I need help because my previous support request was not resolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-08-09T03:12:32"
+  },
+  {
+    "complaint_id": "CMP0122",
+    "customer_id": "CUST0029",
+    "complaint": "I am frustrated. My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-07-14T14:41:32"
+  },
+  {
+    "complaint_id": "CMP0123",
+    "customer_id": "CUST0022",
+    "complaint": "I am frustrated. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-10T00:10:32"
+  },
+  {
+    "complaint_id": "CMP0124",
+    "customer_id": "CUST0039",
+    "complaint": "This is very disappointing. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-24T02:18:32"
+  },
+  {
+    "complaint_id": "CMP0125",
+    "customer_id": "CUST0077",
+    "complaint": "I am frustrated. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-03-25T23:17:32"
+  },
+  {
+    "complaint_id": "CMP0126",
+    "customer_id": "CUST0030",
+    "complaint": "Thanks for your help. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-09-09T19:47:32"
+  },
+  {
+    "complaint_id": "CMP0127",
+    "customer_id": "CUST0061",
+    "complaint": "I am unhappy about this. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-06-21T04:31:32"
+  },
+  {
+    "complaint_id": "CMP0128",
+    "customer_id": "CUST0063",
+    "complaint": "This has been a terrible experience. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-09-11T03:00:32"
+  },
+  {
+    "complaint_id": "CMP0129",
+    "customer_id": "CUST0042",
+    "complaint": "I need some help. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-07-18T16:59:32"
+  },
+  {
+    "complaint_id": "CMP0130",
+    "customer_id": "CUST0037",
+    "complaint": "Thanks for your help. I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-17T08:00:32"
+  },
+  {
+    "complaint_id": "CMP0131",
+    "customer_id": "CUST0033",
+    "complaint": "I am very unhappy with this situation. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-16T13:32:32"
+  },
+  {
+    "complaint_id": "CMP0132",
+    "customer_id": "CUST0060",
+    "complaint": "I need some help. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-06-01T22:38:32"
+  },
+  {
+    "complaint_id": "CMP0133",
+    "customer_id": "CUST0007",
+    "complaint": "I need some help. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-04-24T18:29:32"
+  },
+  {
+    "complaint_id": "CMP0134",
+    "customer_id": "CUST0016",
+    "complaint": "I need some help. I need help because my previous support request was not resolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-03-23T23:15:32"
+  },
+  {
+    "complaint_id": "CMP0135",
+    "customer_id": "CUST0002",
+    "complaint": "Thanks for your help. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-06-27T05:57:32"
+  },
+  {
+    "complaint_id": "CMP0136",
+    "customer_id": "CUST0016",
+    "complaint": "I am very unhappy with this situation. My internet speed has become much slower than usual.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-14T15:01:32"
+  },
+  {
+    "complaint_id": "CMP0137",
+    "customer_id": "CUST0054",
+    "complaint": "This has been a terrible experience. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-17T16:05:32"
+  },
+  {
+    "complaint_id": "CMP0138",
+    "customer_id": "CUST0019",
+    "complaint": "I need some help. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-05-27T13:02:32"
+  },
+  {
+    "complaint_id": "CMP0139",
+    "customer_id": "CUST0044",
+    "complaint": "This is very disappointing. I am unhappy with the customer service I received.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-04T18:55:32"
+  },
+  {
+    "complaint_id": "CMP0140",
+    "customer_id": "CUST0076",
+    "complaint": "I need some help. I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-07-02T06:51:32"
+  },
+  {
+    "complaint_id": "CMP0141",
+    "customer_id": "CUST0043",
+    "complaint": "This has been a terrible experience. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-27T04:29:32"
+  },
+  {
+    "complaint_id": "CMP0142",
+    "customer_id": "CUST0031",
+    "complaint": "I want to request a refund.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-06-30T19:21:32"
+  },
+  {
+    "complaint_id": "CMP0143",
+    "customer_id": "CUST0061",
+    "complaint": "This has been a terrible experience. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-07-25T02:19:32"
+  },
+  {
+    "complaint_id": "CMP0144",
+    "customer_id": "CUST0017",
+    "complaint": "This is very disappointing. I have already contacted support but my issue is still unresolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-18T03:40:32"
+  },
+  {
+    "complaint_id": "CMP0145",
+    "customer_id": "CUST0068",
+    "complaint": "I appreciate the support. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-31T10:54:32"
+  },
+  {
+    "complaint_id": "CMP0146",
+    "customer_id": "CUST0010",
+    "complaint": "I am unhappy about this. I was charged twice for the same service.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-12T04:22:32"
+  },
+  {
+    "complaint_id": "CMP0147",
+    "customer_id": "CUST0043",
+    "complaint": "I am very unhappy with this situation. I have contacted customer support multiple times.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-20T21:04:32"
+  },
+  {
+    "complaint_id": "CMP0148",
+    "customer_id": "CUST0070",
+    "complaint": "I appreciate the support. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-03-25T05:58:32"
+  },
+  {
+    "complaint_id": "CMP0149",
+    "customer_id": "CUST0012",
+    "complaint": "Thanks for your help. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-05T17:11:32"
+  },
+  {
+    "complaint_id": "CMP0150",
+    "customer_id": "CUST0004",
+    "complaint": "I appreciate the support. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-03-27T02:04:32"
+  },
+  {
+    "complaint_id": "CMP0151",
+    "customer_id": "CUST0056",
+    "complaint": "I am extremely frustrated and upset. The connection works but the speed is very poor.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-14T05:08:32"
+  },
+  {
+    "complaint_id": "CMP0152",
+    "customer_id": "CUST0011",
+    "complaint": "Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-07-07T16:02:32"
+  },
+  {
+    "complaint_id": "CMP0153",
+    "customer_id": "CUST0060",
+    "complaint": "I am very unhappy with this situation. I was charged twice for the same service.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-12T20:10:32"
+  },
+  {
+    "complaint_id": "CMP0154",
+    "customer_id": "CUST0060",
+    "complaint": "I need some help. There is an incorrect charge on my bill.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-08-29T18:34:32"
+  },
+  {
+    "complaint_id": "CMP0155",
+    "customer_id": "CUST0076",
+    "complaint": "This is very disappointing. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-12T04:09:32"
+  },
+  {
+    "complaint_id": "CMP0156",
+    "customer_id": "CUST0050",
+    "complaint": "I appreciate the support. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-21T01:24:32"
+  },
+  {
+    "complaint_id": "CMP0157",
+    "customer_id": "CUST0046",
+    "complaint": "I am unhappy about this. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-07-01T08:31:32"
+  },
+  {
+    "complaint_id": "CMP0158",
+    "customer_id": "CUST0036",
+    "complaint": "I appreciate the support. The support team did not resolve my problem.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-03-20T04:30:32"
+  },
+  {
+    "complaint_id": "CMP0159",
+    "customer_id": "CUST0078",
+    "complaint": "I need some help. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "NEUTRAL",
+    "channel": "EMAIL",
+    "created_at": "2026-08-11T16:49:32"
+  },
+  {
+    "complaint_id": "CMP0160",
+    "customer_id": "CUST0013",
+    "complaint": "I am frustrated. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-30T04:09:32"
+  },
+  {
+    "complaint_id": "CMP0161",
+    "customer_id": "CUST0047",
+    "complaint": "I appreciate the support. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-30T00:51:32"
+  },
+  {
+    "complaint_id": "CMP0162",
+    "customer_id": "CUST0023",
+    "complaint": "I am frustrated. My internet speed has become much slower than usual.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-04-24T06:25:32"
+  },
+  {
+    "complaint_id": "CMP0163",
+    "customer_id": "CUST0062",
+    "complaint": "This is very disappointing. I was charged twice for the same service.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-10T19:41:32"
+  },
+  {
+    "complaint_id": "CMP0164",
+    "customer_id": "CUST0019",
+    "complaint": "I am extremely frustrated and upset. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-03T00:04:32"
+  },
+  {
+    "complaint_id": "CMP0165",
+    "customer_id": "CUST0002",
+    "complaint": "I appreciate the support. I am unhappy with the customer service I received.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-05T20:34:32"
+  },
+  {
+    "complaint_id": "CMP0166",
+    "customer_id": "CUST0075",
+    "complaint": "I appreciate the support. I was charged twice for the same service.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-05-27T01:51:32"
+  },
+  {
+    "complaint_id": "CMP0167",
+    "customer_id": "CUST0080",
+    "complaint": "I am unhappy about this. I have already contacted support but my issue is still unresolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-26T16:24:32"
+  },
+  {
+    "complaint_id": "CMP0168",
+    "customer_id": "CUST0060",
+    "complaint": "I am extremely frustrated and upset. I was charged twice for the same service.",
+    "category": "BILLING",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-08-31T06:18:32"
+  },
+  {
+    "complaint_id": "CMP0169",
+    "customer_id": "CUST0005",
+    "complaint": "Thanks for your help. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-13T02:55:32"
+  },
+  {
+    "complaint_id": "CMP0170",
+    "customer_id": "CUST0018",
+    "complaint": "I am unhappy about this. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-05-28T11:09:32"
+  },
+  {
+    "complaint_id": "CMP0171",
+    "customer_id": "CUST0054",
+    "complaint": "This has been a terrible experience. My internet has been completely down since this morning.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-15T22:31:32"
+  },
+  {
+    "complaint_id": "CMP0172",
+    "customer_id": "CUST0048",
+    "complaint": "This has been a terrible experience. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-27T06:23:32"
+  },
+  {
+    "complaint_id": "CMP0173",
+    "customer_id": "CUST0048",
+    "complaint": "I appreciate the support. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-06-25T19:56:32"
+  },
+  {
+    "complaint_id": "CMP0174",
+    "customer_id": "CUST0016",
+    "complaint": "Thanks for your help. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-09-07T11:25:32"
+  },
+  {
+    "complaint_id": "CMP0175",
+    "customer_id": "CUST0043",
+    "complaint": "The internet is working but everything loads very slowly.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-05-02T01:18:32"
+  },
+  {
+    "complaint_id": "CMP0176",
+    "customer_id": "CUST0028",
+    "complaint": "I am unhappy about this. My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-08-13T17:24:32"
+  },
+  {
+    "complaint_id": "CMP0177",
+    "customer_id": "CUST0036",
+    "complaint": "My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "PHONE",
+    "created_at": "2026-08-21T23:34:32"
+  },
+  {
+    "complaint_id": "CMP0178",
+    "customer_id": "CUST0004",
+    "complaint": "I am unhappy about this. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-11T16:59:32"
+  },
+  {
+    "complaint_id": "CMP0179",
+    "customer_id": "CUST0003",
+    "complaint": "I appreciate the support. My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-04-19T10:25:32"
+  },
+  {
+    "complaint_id": "CMP0180",
+    "customer_id": "CUST0015",
+    "complaint": "This has been a terrible experience. I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-01T10:59:32"
+  },
+  {
+    "complaint_id": "CMP0181",
+    "customer_id": "CUST0076",
+    "complaint": "I need some help. Please help me with a refund for my recent payment.",
+    "category": "REFUND",
+    "sentiment": "NEUTRAL",
+    "channel": "CHAT",
+    "created_at": "2026-04-07T13:35:32"
+  },
+  {
+    "complaint_id": "CMP0182",
+    "customer_id": "CUST0004",
+    "complaint": "I am very unhappy with this situation. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-03-29T18:53:32"
+  },
+  {
+    "complaint_id": "CMP0183",
+    "customer_id": "CUST0063",
+    "complaint": "I appreciate the support. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-07-26T09:39:32"
+  },
+  {
+    "complaint_id": "CMP0184",
+    "customer_id": "CUST0019",
+    "complaint": "This is very disappointing. The internet is working but everything loads very slowly.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-03-30T16:06:32"
+  },
+  {
+    "complaint_id": "CMP0185",
+    "customer_id": "CUST0068",
+    "complaint": "I am very unhappy with this situation. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-11T09:33:32"
+  },
+  {
+    "complaint_id": "CMP0186",
+    "customer_id": "CUST0071",
+    "complaint": "I am extremely frustrated and upset. Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-07-27T22:31:32"
+  },
+  {
+    "complaint_id": "CMP0187",
+    "customer_id": "CUST0044",
+    "complaint": "I am very unhappy with this situation. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-08-16T08:10:32"
+  },
+  {
+    "complaint_id": "CMP0188",
+    "customer_id": "CUST0041",
+    "complaint": "I am frustrated. I do not understand this extra charge on my account.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-06-04T09:41:32"
+  },
+  {
+    "complaint_id": "CMP0189",
+    "customer_id": "CUST0009",
+    "complaint": "Thanks for your help. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "POSITIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-04T07:42:32"
+  },
+  {
+    "complaint_id": "CMP0190",
+    "customer_id": "CUST0017",
+    "complaint": "This is very disappointing. My router is connected but there is no internet.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-06-27T23:57:32"
+  },
+  {
+    "complaint_id": "CMP0191",
+    "customer_id": "CUST0055",
+    "complaint": "This is very disappointing. My internet has been completely down since this morning.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-23T17:53:32"
+  },
+  {
+    "complaint_id": "CMP0192",
+    "customer_id": "CUST0074",
+    "complaint": "My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEUTRAL",
+    "channel": "WEB",
+    "created_at": "2026-06-19T02:03:32"
+  },
+  {
+    "complaint_id": "CMP0193",
+    "customer_id": "CUST0045",
+    "complaint": "This is very disappointing. I need help because my previous support request was not resolved.",
+    "category": "CUSTOMER_SERVICE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-08-19T14:37:32"
+  },
+  {
+    "complaint_id": "CMP0194",
+    "customer_id": "CUST0029",
+    "complaint": "Thanks for your help. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "PHONE",
+    "created_at": "2026-08-12T15:56:32"
+  },
+  {
+    "complaint_id": "CMP0195",
+    "customer_id": "CUST0035",
+    "complaint": "I am frustrated. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-24T15:16:32"
+  },
+  {
+    "complaint_id": "CMP0196",
+    "customer_id": "CUST0019",
+    "complaint": "Thanks for your help. I would like a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "POSITIVE",
+    "channel": "EMAIL",
+    "created_at": "2026-06-29T19:25:32"
+  },
+  {
+    "complaint_id": "CMP0197",
+    "customer_id": "CUST0068",
+    "complaint": "This has been a terrible experience. Can I get my money back for the service?",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-04-26T21:03:32"
+  },
+  {
+    "complaint_id": "CMP0198",
+    "customer_id": "CUST0048",
+    "complaint": "Thanks for your help. My latest bill is higher than expected.",
+    "category": "BILLING",
+    "sentiment": "POSITIVE",
+    "channel": "CHAT",
+    "created_at": "2026-05-14T10:41:32"
+  },
+  {
+    "complaint_id": "CMP0199",
+    "customer_id": "CUST0080",
+    "complaint": "I am unhappy about this. The internet stopped working suddenly.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "WEB",
+    "created_at": "2026-03-27T18:32:32"
+  },
+  {
+    "complaint_id": "CMP0200",
+    "customer_id": "CUST0063",
+    "complaint": "I am extremely frustrated and upset. I believe I should receive a refund for this charge.",
+    "category": "REFUND",
+    "sentiment": "VERY_NEGATIVE",
+    "channel": "PHONE",
+    "created_at": "2026-07-07T05:29:32"
+  },
+  {
+    "complaint_id": "CMP0201",
+    "customer_id": "C0001",
+    "complaint": "I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-05T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0202",
+    "customer_id": "C0001",
+    "complaint": "I cannot access any websites because my internet is down.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-06T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0203",
+    "customer_id": "C0001",
+    "complaint": "My internet has been completely down since this morning.",
+    "category": "INTERNET_OUTAGE",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-07T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0204",
+    "customer_id": "C0002",
+    "complaint": "The internet is working but everything loads very slowly.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-05T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0205",
+    "customer_id": "C0002",
+    "complaint": "My internet is extremely slow today.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-06T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0206",
+    "customer_id": "C0002",
+    "complaint": "Videos keep buffering even though my connection is active.",
+    "category": "SLOW_INTERNET",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-07T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0207",
+    "customer_id": "C0003",
+    "complaint": "My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-05T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0208",
+    "customer_id": "C0003",
+    "complaint": "My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-06T17:08:32"
+  },
+  {
+    "complaint_id": "CMP0209",
+    "customer_id": "C0003",
+    "complaint": "My bill contains a charge that I did not expect.",
+    "category": "BILLING",
+    "sentiment": "NEGATIVE",
+    "channel": "CHAT",
+    "created_at": "2026-09-07T17:08:32"
+  }
+]

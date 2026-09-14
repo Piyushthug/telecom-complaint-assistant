@@ -1,0 +1,24 @@
+INFO:     127.0.0.1:61620 - "GET /complaints/CUST0025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /complaints/CUST0070 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64705 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64705 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54006 - "POST /complaint-stream HTTP/1.1" 200 OK
+2026-09-14 19:00:38,623 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2026-09-14 19:00:38,624 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:     127.0.0.1:54056 - "GET /complaints/CUST0025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54060 - "GET /complaints/CUST0025 HTTP/1.1" 200 OK
+2026-09-14 19:00:57,185 [WARNING] backend.graph.workflow: Escalating complaint after 2 failed validation attempt(s). policy_sources=['Billing Complaint Policy.md', 'Customer Complaint Escalation Policy.md', 'Internet Outage Complaint Policy.md']
+2026-09-14 19:00:57,502 [INFO] backend.main: request_id=75a7c492-36f8-447a-a4e5-fa77f7b3a020 customer_id=CUST0025 category=CUSTOMER_SERVICE sentiment=NEUTRAL validation_status=ESCALATED retry_count=2 escalated=True latency_ms=21632.23
+INFO:     127.0.0.1:64276 - "POST /complaint-stream HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64279 - "GET /complaints/CUST0025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56962 - "GET /complaints/CUST0025 HTTP/1.1" 200 OK
+2026-09-14 19:02:57,439 [WARNING] backend.graph.workflow: Escalating complaint after 2 failed validation attempt(s). policy_sources=['Billing Complaint Policy.md', 'Customer Complaint Escalation Policy.md', 'Internet Outage Complaint Policy.md']
+2026-09-14 19:02:57,748 [INFO] backend.main: request_id=101189a8-3e1d-4121-bdd5-4bf5d1d7ca39 customer_id=CUST0025 category=CUSTOMER_SERVICE sentiment=NEUTRAL validation_status=ESCALATED retry_count=2 escalated=True latency_ms=8151.58
+INFO:     127.0.0.1:55092 - "POST /complaint-stream HTTP/1.1" 200 OK
+2026-09-14 19:05:05,645 [INFO] backend.main: request_id=e2f20c0a-f1e2-443f-b601-f8eeea15deb2 customer_id=CUST0025 category=CUSTOMER_SERVICE sentiment=VERY_NEGATIVE validation_status=PASS retry_count=0 escalated=False latency_ms=6188.27
+INFO:     127.0.0.1:60319 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60319 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65460 - "POST /complaint-stream HTTP/1.1" 200 OK
+2026-09-14 19:41:28,647 [INFO] backend.main: request_id=b4be4356-fdb9-46c9-8369-32cd1abbab7d customer_id=CUST1234 category=INTERNET_OUTAGE sentiment=NEGATIVE validation_status=PASS retry_count=0 escalated=False latency_ms=4964.15
+INFO:     127.0.0.1:63097 - "POST /complaint-stream HTTP/1.1" 200 OK
+2026-09-14 19:42:44,562 [INFO] backend.main: request_id=06f7f723-f4ed-4ef7-9e7f-609ee2607c9f customer_id=CUST1234 category=INTERNET_OUTAGE sentiment=VERY_NEGATIVE validation_status=PASS retry_count=0 escalated=False latency_ms=4448.27
