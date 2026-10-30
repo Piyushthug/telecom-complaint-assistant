@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "AI evaluation dataset for telecom complaint assistant",
+    "num_test_cases": 20,
+    "categories": ["billing", "outage", "slow_internet", "refund", "general"],
+    "created_date": "2026-10-30"
+  },
+  "test_cases": [
+    {
+      "id": "eval_001",
+      "complaint_text": "I was overcharged $50 on my bill this month. I want a refund immediately.",
+      "customer_id": "CUST_EVAL_001",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "negative",
+        "category": "billing",
+        "should_escalate": false,
+        "response_requirements": {
+          "has_policy_citation": true,
+          "mentions_refund_process": true,
+          "no_specific_amount_promised": true,
+          "acknowledges_issue": true
+        },
+        "failure_modes": ["hallucinated_refund", "vague_timeline"]
+      }
+    },
+    {
+      "id": "eval_002",
+      "complaint_text": "My internet has been completely down for 8 hours! This is unacceptable!",
+      "customer_id": "CUST_EVAL_002",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "outage",
+        "should_escalate": false,
+        "response_requirements": {
+          "has_policy_citation": true,
+          "acknowledges_impact": true,
+          "provides_next_steps": true,
+          "offers_credit_if_policy_allows": true
+        },
+        "failure_modes": ["no_escalation_offered", "missing_timeline"]
+      }
+    },
+    {
+      "id": "eval_003",
+      "complaint_text": "Connection is very slow. Pages take forever to load. This has been going on for 3 days.",
+      "customer_id": "CUST_EVAL_003",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "negative",
+        "category": "slow_internet",
+        "should_escalate": false,
+        "response_requirements": {
+          "offers_troubleshooting": true,
+          "mentions_diagnostics": true,
+          "provides_timeline": true,
+          "has_policy_citation": true
+        },
+        "failure_modes": ["dismissive_tone", "oversimplified_solution"]
+      }
+    },
+    {
+      "id": "eval_004",
+      "complaint_text": "I've contacted support 3 times about this billing issue and nothing has changed!",
+      "customer_id": "CUST_EVAL_004",
+      "channel": "phone",
+      "expected": {
+        "sentiment": "negative",
+        "category": "billing",
+        "should_escalate": true,
+        "repeated_contact": true,
+        "response_requirements": {
+          "acknowledges_frustration": true,
+          "escalation_clear": true,
+          "assigns_owner": true
+        },
+        "failure_modes": ["repeats_old_steps", "no_escalation"]
+      }
+    },
+    {
+      "id": "eval_005",
+      "complaint_text": "Can you tell me about your data plans?",
+      "customer_id": "CUST_EVAL_005",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "neutral",
+        "category": "inquiry",
+        "should_escalate": false,
+        "response_requirements": {
+          "helpful": true,
+          "factual": true
+        },
+        "failure_modes": ["missing_information"]
+      }
+    },
+    {
+      "id": "eval_006",
+      "complaint_text": "I want a $5000 refund because I'm angry.",
+      "customer_id": "CUST_EVAL_006",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "negative",
+        "category": "refund",
+        "should_escalate": true,
+        "response_requirements": {
+          "has_policy_citation": true,
+          "no_hallucinated_amount": true,
+          "empathetic": true,
+          "clear_escalation_path": true
+        },
+        "failure_modes": ["promises_refund", "arbitrary_amount_offered"]
+      }
+    },
+    {
+      "id": "eval_007",
+      "complaint_text": "Internet dropped 10 times during my important video call today.",
+      "customer_id": "CUST_EVAL_007",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "outage",
+        "should_escalate": false,
+        "response_requirements": {
+          "empathetic": true,
+          "offers_troubleshooting": true,
+          "mentions_credit": true,
+          "has_policy_citation": true
+        },
+        "failure_modes": ["dismissive", "no_offer_of_credit"]
+      }
+    },
+    {
+      "id": "eval_008",
+      "complaint_text": "Service has been flaky for 2 weeks. I'm considering leaving.",
+      "customer_id": "CUST_EVAL_008",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "negative",
+        "category": "slow_internet",
+        "should_escalate": false,
+        "response_requirements": {
+          "retention_focused": true,
+          "problem_solving": true,
+          "timeline_clear": true
+        },
+        "failure_modes": ["dismissive", "ignores_retention_risk"]
+      }
+    },
+    {
+      "id": "eval_009",
+      "complaint_text": "I was charged for services I never used.",
+      "customer_id": "CUST_EVAL_009",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "billing",
+        "should_escalate": false,
+        "response_requirements": {
+          "acknowledges_charge": true,
+          "outlines_process": true,
+          "timeline": true,
+          "has_policy_citation": true
+        },
+        "failure_modes": ["vague_response", "no_timeline"]
+      }
+    },
+    {
+      "id": "eval_010",
+      "complaint_text": "Thank you for excellent service! You resolved my issue quickly.",
+      "customer_id": "CUST_EVAL_010",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "positive",
+        "category": "general",
+        "should_escalate": false,
+        "response_requirements": {
+          "professional": true,
+          "appreciative": true
+        },
+        "failure_modes": []
+      }
+    },
+    {
+      "id": "eval_011",
+      "complaint_text": "My bill went up 30% with no explanation. This is outrageous!",
+      "customer_id": "CUST_EVAL_011",
+      "channel": "phone",
+      "expected": {
+        "sentiment": "negative",
+        "category": "billing",
+        "should_escalate": false,
+        "response_requirements": {
+          "explains_increase": true,
+          "offers_review": true,
+          "has_policy_citation": true
+        },
+        "failure_modes": ["dismissive", "refuses_explanation"]
+      }
+    },
+    {
+      "id": "eval_012",
+      "complaint_text": "I can't get online at all. Nothing is working!",
+      "customer_id": "CUST_EVAL_012",
+      "channel": "phone",
+      "expected": {
+        "sentiment": "negative",
+        "category": "outage",
+        "should_escalate": false,
+        "response_requirements": {
+          "urgent": true,
+          "immediate_steps": true,
+          "escalation_path": true
+        },
+        "failure_modes": ["slow_response", "no_urgency"]
+      }
+    },
+    {
+      "id": "eval_013",
+      "complaint_text": "I contacted you yesterday and the representative was rude.",
+      "customer_id": "CUST_EVAL_013",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "general",
+        "should_escalate": true,
+        "response_requirements": {
+          "apology": true,
+          "takes_responsibility": true,
+          "escalation": true
+        },
+        "failure_modes": ["dismissive", "no_apology"]
+      }
+    },
+    {
+      "id": "eval_014",
+      "complaint_text": "GIVE ME MY MONEY BACK NOW OR I'M GOING TO ANOTHER PROVIDER!!!!",
+      "customer_id": "CUST_EVAL_014",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "negative",
+        "category": "refund",
+        "should_escalate": true,
+        "response_requirements": {
+          "calm": true,
+          "escalation_clear": true,
+          "no_reactionary": true
+        },
+        "failure_modes": ["reactive", "promises_refund"]
+      }
+    },
+    {
+      "id": "eval_015",
+      "complaint_text": "The speeds you advertised don't match what I'm getting.",
+      "customer_id": "CUST_EVAL_015",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "slow_internet",
+        "should_escalate": false,
+        "response_requirements": {
+          "requests_speed_test": true,
+          "professional": true,
+          "offers_solution": true
+        },
+        "failure_modes": ["dismissive"]
+      }
+    },
+    {
+      "id": "eval_016",
+      "complaint_text": "How do I pay my bill?",
+      "customer_id": "CUST_EVAL_016",
+      "channel": "chat",
+      "expected": {
+        "sentiment": "neutral",
+        "category": "inquiry",
+        "should_escalate": false,
+        "response_requirements": {
+          "clear_instructions": true,
+          "all_options": true
+        },
+        "failure_modes": []
+      }
+    },
+    {
+      "id": "eval_017",
+      "complaint_text": "Service keeps disconnecting. I've tried everything. I need professional help.",
+      "customer_id": "CUST_EVAL_017",
+      "channel": "phone",
+      "expected": {
+        "sentiment": "negative",
+        "category": "outage",
+        "should_escalate": true,
+        "response_requirements": {
+          "acknowledges_efforts": true,
+          "escalation_clear": true,
+          "technician_offer": true
+        },
+        "failure_modes": ["suggests_basic_steps", "no_escalation"]
+      }
+    },
+    {
+      "id": "eval_018",
+      "complaint_text": "I haven't been able to pay my bill for weeks because the website is broken.",
+      "customer_id": "CUST_EVAL_018",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "billing",
+        "should_escalate": true,
+        "response_requirements": {
+          "acknowledges_system_issue": true,
+          "payment_plan": true,
+          "no_penalties": true
+        },
+        "failure_modes": ["blames_customer", "threatens_service_cut"]
+      }
+    },
+    {
+      "id": "eval_019",
+      "complaint_text": "I've been a loyal customer for 10 years and this is how you treat me?",
+      "customer_id": "CUST_EVAL_019",
+      "channel": "phone",
+      "expected": {
+        "sentiment": "negative",
+        "category": "general",
+        "should_escalate": true,
+        "loyalty_mention": true,
+        "response_requirements": {
+          "acknowledges_loyalty": true,
+          "appreciative": true,
+          "escalation": true
+        },
+        "failure_modes": ["dismissive", "ignores_loyalty"]
+      }
+    },
+    {
+      "id": "eval_020",
+      "complaint_text": "No service for 4 hours. According to your policy, I should get a credit.",
+      "customer_id": "CUST_EVAL_020",
+      "channel": "email",
+      "expected": {
+        "sentiment": "negative",
+        "category": "outage",
+        "should_escalate": false,
+        "customer_knows_policy": true,
+        "response_requirements": {
+          "acknowledges_policy": true,
+          "confirms_credit": true,
+          "timeline": true
+        },
+        "failure_modes": ["denies_credit", "questions_policy"]
+      }
+    }
+  ]
+}
